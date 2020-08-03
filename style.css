@@ -46,13 +46,10 @@ body{
     /* background-color: rgb(14 136 32 / 80%); */
 }
 .container{
-	margin-bottom:30px;
+	margin-bottom:50px;
 }
 .sticky-top{
 	background:white;	
-}
-.m-bottom-0{
-	margin-bottom:0;	
 }
 .p-top{
 	padding: 50px 0 35px 0px;
@@ -110,11 +107,19 @@ small{
 .card{
 	margin-top: 30px;
     box-shadow: 0px 0px 6px #908f8f24;
-	padding: 45px 0 0 0;    
+	padding: 45px 0px 10px 0;
     border: none;
 	line-height:1.5em;
 	margin-right:20px;
-	transition:0.3s all ease;
+	transition:0.3s all ease;	
+}
+.text-muted{
+	margin-top: 10px;
+    margin-bottom: 5px !important;
+	font-size: 15px;
+}
+.card-bg .card-body{
+	padding: 1.25rem 0 0 0px;
 }
 .card:hover{
 	background: transparent;
@@ -123,15 +128,19 @@ small{
 }
 .card-bg-1{
 	background: linear-gradient(to right, #f9fffb, #f8fffa);
-	
+}
+.card-bg-1 img{
+	width:100px;
+	height:109px;
+	padding: 0 0px 10px 0;
 }
 .card-bg{
 	box-shadow: 5px 5px 60px #908f8f24 !important;
 	padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px;	
 }
 
-.card p{color: gray;}
+.card p{color: gray;margin-bottom: 1.5rem;}
 .container .seeall{
 	color: orange;
     font-weight: bold;
@@ -148,6 +157,7 @@ small{
 .card-footer{
 	background: transparent;
 	border:none;
+	padding: 24px 0 0 0;
 }
 /*Card Group Style End*/
 
@@ -179,12 +189,13 @@ small{
 	padding-top:30px;
 	line-height: 2em;
     font-weight: 500;
-	text-align:justify;    
+	text-align:justify;
+	margin-bottom:20px;
 }
 .testimonial h2{
 	font-weight:bold;
-	margin-top:80px;
-	margin-bottom:80px;
+	margin-top:40px;
+	margin-bottom:30px;
 }
 
 /*Categories Style End*/
@@ -236,7 +247,7 @@ small{
 		opacity:1;
 	}
 	100%{		
-		transform:translateY(-60vh);
+		transform:translateY(-45vh);
 		opacity:0;
 	}
 }
