@@ -123,7 +123,7 @@ small{
 }
 .card:hover{
 	background: transparent;
-	box-shadow: 2px 10px 10px lightgrey !important;
+	box-shadow: 1px 1px 10px lightgrey !important;
 	cursor:pointer;
 }
 .card-bg-1{
@@ -335,7 +335,17 @@ small{
 	}
 	.p_content {
     margin-left: 5px;    
-	}	
+	}
+	.order-first, .order-last{
+		order: unset;
+	}
+	.card{	
+	box-shadow: 1px 1px 10px lightgrey;
+	margin-right: 0;
+	}
+	.card-bg-1:hover{
+		box-shadow: 1px 1px 10px grey !important;
+	}
 }
 @media screen and (max-width: 501px){
 	.footer .col-md-4{
